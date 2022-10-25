@@ -5,7 +5,7 @@ use App\http\Controllers\DashboardController;
 use App\http\Controllers\mastersiswaController;
 use App\http\Controllers\masterkontakController;
 use App\http\Controllers\masterprojectController;
-use App\http\Controllers\loginController;
+use App\Http\Controllers\loginController;
 use App\http\Controllers\jeniskontakController;
 use App\http\Controllers\kontakController;
 
