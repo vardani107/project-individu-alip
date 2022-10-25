@@ -39,22 +39,7 @@ route::middleware('guest')->group(function(){
         return view('layout.admin');
     });
 
-    Route::get('/', function () {
-        return view('home');
-    });
 
-
-    Route::get('/about', function () {
-        return view('about');
-    });
-
-    Route::get('/project', function () {
-        return view('project');
-    });
-
-    Route::get('/contact', function () {
-        return view('contact');
-    });
 
     Route::get('/TambahProject', function () {
         return view('TambahProject');
@@ -64,6 +49,23 @@ route::middleware('guest')->group(function(){
         return view('EditKontak');
     });
 
+});
+
+Route::get('/', function () {
+    return view('home');
+});
+
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/project', function () {
+    return view('project');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
 
