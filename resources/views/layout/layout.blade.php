@@ -45,7 +45,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="/">home</a>
+                        <a class="nav-link active" href="/">/</a>
                         <a class="nav-link active" href="/about">about</a>
                         <a class="nav-link active" href="/project">project</a>
                         <a class="nav-link active" href="/contact">contact</a>
