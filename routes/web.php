@@ -34,22 +34,19 @@ route::middleware('guest')->group(function(){
         return view('login');
     });
 
-
     Route::get('/admin', function () {
         return view('layout.admin');
     });
-
-
-
     Route::get('/TambahProject', function () {
         return view('TambahProject');
     });
-
     Route::get('/EditKontak', function () {
         return view('EditKontak');
     });
 
 });
+
+
 
 Route::get('/', function () {
     return view('home');
