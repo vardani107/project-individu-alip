@@ -30,7 +30,7 @@ route::middleware('guest')->group(function(){
     Route::post('login', [loginController::class, 'authenticate']);
    
 
-        Route::get('/', function () {
+        Route::get('/login', function () {
         return view('login');
     });
 
